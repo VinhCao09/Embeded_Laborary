@@ -1,8 +1,8 @@
 #  ![images](https://raw.githubusercontent.com/iiiypuk/rpi-icon/master/256.png) Embeded Laborary with Raspberry Pi
 
-Code cuối kỳ thực tập nhúng. Đọc data từ Raspberry Pi gửi dữ liệu qua ESP8266. Lưu dữ liệu lên database SQL, code Web với HTML, Bootstrap. Tạo bot Telegram với Fatherbot
+# *Code cuối kỳ thực tập nhúng. Đọc data từ Raspberry Pi gửi dữ liệu qua ESP8266. Lưu dữ liệu lên database SQL, code Web với HTML, Bootstrap. Tạo bot Telegram với Fatherbot*
 
-#Intruduction Raspberry Pi
+## Intruduction Raspberry Pi
 
 Raspberry Pi is a small single board computer. By connecting peripherals like Keyboard, mouse, display to the Raspberry Pi, it will act as a mini personal computer.
 
