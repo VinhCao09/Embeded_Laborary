@@ -1,25 +1,35 @@
-# Embeded_Laborary
+#  ![images](https://raw.githubusercontent.com/iiiypuk/rpi-icon/master/256.png) Embeded Laborary with Raspberry Pi
+
 Code cuối kỳ thực tập nhúng. Đọc data từ Raspberry Pi gửi dữ liệu qua ESP8266. Lưu dữ liệu lên database SQL, code Web với HTML, Bootstrap. Tạo bot Telegram với Fatherbot
+
+#Intruduction Raspberry Pi
+
+Raspberry Pi is a small single board computer. By connecting peripherals like Keyboard, mouse, display to the Raspberry Pi, it will act as a mini personal computer.
+
+Raspberry Pi is popularly used for real time Image/Video Processing, IoT based applications and Robotics applications.
+
+Raspberry Pi is slower than laptop or desktop but is still a computer which can provide all the expected features or abilities, at a low power consumption.
+
+![images](https://www.electronicwings.com/storage/PlatformSection/TopicContent/296/description/Raspberry%20Pi%203%20hardware(0).png)
 
 ## How to use
 
-Upload the code to the Arduino
-
+Vào terminal trên Raspbian để download thư viện:
 
 ```bash
-  
+git clone https://github.com/adafruit/Adafruit_Python_DHT.git
 ```
-Install the required libraries
+Sau khi download thư viện về được, ta trở tới thư viện với dòng lệnh:
+
 ```bash
-cd python
-pip install -r requirements.txt
+cd Adafruit_Python_DHT
 ```
 
-Set up webcam
-change the cam_source in the code.
+Tiến hành cài thư viện:
 ```bash
-cam_source = "http://192.168.1.99/hi-images"
-# 0 for camera, 1 for usbcam
+sudo apt-get install build-essential python-dev python-openssl
+sudo python setup.py install
+sudo pip3 install Adafruit_Python_DHT
 ```
 
 # 💫About Me :
